@@ -37,10 +37,10 @@ export const NAV = [
 ];
 
 export const MARQUEE_PRODUCTS = [
-  { img: "/assets/p01.jpg", name: "Cutting Tool Holder" },
+  { img: "/assets/products/hardened-ground-v-blocks.jpg", name: "V-Block" },
+  { img: "/assets/products/ci-angle-plate-plain.jpg", name: "Angle Plate" },
+  { img: "/assets/products/adjustable-hand-reamers.jpg", name: "Adjustable Hand Reamer" },
   { img: "/assets/p02.jpg", name: "Adjustable Tap Wrench" },
-  { img: "/assets/p03.jpg", name: "Lathe Dog Carrier" },
-  { img: "/assets/p04.jpg", name: "Precision Sine Bar" },
   { img: "/assets/p05.jpg", name: "Radius Gauge Set" },
 ];
 

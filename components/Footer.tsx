@@ -13,12 +13,7 @@ export default function Footer() {
       </div>
       <div className="container footer-grid">
         <div className="footer-brand">
-          <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-            <Logo size={38} light />
-            <b style={{ color: "#fff", fontFamily: "var(--font-display)", fontSize: 17 }}>
-              {COMPANY.name}
-            </b>
-          </div>
+          <Logo height={64} />
           <p>{COMPANY.tagline}</p>
           <p style={{ fontSize: 13, marginTop: 10 }}>{COMPANY.address}</p>
         </div>

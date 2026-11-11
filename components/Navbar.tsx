@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Logo from "./Logo";
-import { NAV, COMPANY, WA_RFQ_LINK } from "@/lib/data";
+import { NAV, WA_RFQ_LINK } from "@/lib/data";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -21,11 +21,7 @@ export default function Navbar() {
       <header className={`nav ${scrolled ? "is-scrolled" : ""}`}>
         <div className="container nav-inner">
           <Link href="/" className="nav-brand" data-cursor="Home">
-            <Logo size={38} />
-            <span>
-              <b>{COMPANY.short}</b>
-              <small>Industrial Tools Co.</small>
-            </span>
+            <Logo height={44} />
           </Link>
           <nav className="nav-links">
             {NAV.map((l) => (
